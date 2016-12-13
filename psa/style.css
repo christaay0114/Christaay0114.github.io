@@ -1,0 +1,88 @@
+h1,h2,h3,body{
+	margin:0;
+	padding:0;
+	border:0;
+	
+}
+body { 
+	width: auto;
+	height: auto;
+	background: linear-gradient(#99e6ff, white); /* Standard syntax */
+ }	
+h1 {/* we will center the text by giving it a padding */ 
+	text-align:center;
+	padding-top:160px;
+	color:Black;
+	font-weight:200;/*border:white;*/
+}
+
+@font-face {   
+    font-family: 'Amatic SC', cursive;   
+    src: url('https://dl.dropboxusercontent.com/u/38807507/pharmount.ttf'); 
+}
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+ 
+}
+
+  @-webkit-keyframes rolling { /*conneced to .roll */
+    0% { transform: translate(46px,-2px);
+      transform: rotate(600deg);/*play around with percents= steps of "falling down"  */
+    }
+    50% {transform: translate(40px,3px);/*try percentages*/
+      transform: rotate(600deg);
+    }
+    100% {transform: translate(12px, 300px);
+      transform: rotate(600deg);
+       }
+  }
+.scribble{
+   width:200px;
+   height:40px;
+}
+.roll {
+  -webkit-animation: rolling 5s 3s 1; /*play with this value to determine animation play*/ 
+}
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s 0.5s linear alternate both;
+  -webkit-animation-duration: 5s;
+  font-family: 'Amatic SC', cursive;  
+  font-size: 80px;
+  text-align: center;
+}
+.second {
+    -webkit-transform: rotate(-20deg);
+    text-align:center;
+    font-size:50px;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top:30px;   
+}
+
+.third{
+	 -webkit-transform: rotate(20deg);
+    text-align:center;
+    font-size:35px;
+    padding-top:200px;
+   font-family: 'Voltaire', sans-serif;
+}    
+.fourth {
+ -webkit-transform: rotate(-20deg);
+    text-align:center;
+    font-size:50px; 
+     padding-top:50px;
+    font-family: 'Shadows Into Light Two', cursive;
+ }
+ h5 { text-align:center;
+    font-size:60px;
+    padding-top:100px;
+   font-family: 'Amatic SC', cursive;   
+   

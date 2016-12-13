@@ -1,0 +1,61 @@
+.header {background-color:#2D2E46; /*comment out any infor to make sure the css is linked up to the html*/
+		height:220px;
+		text-align:center;
+}
+h1,h2,h3,h4,h5,h6,header,p,body { /*to calculate where to put txt we 0 out all the text*/
+	margin:0;
+	padding:0;
+	border:0; 
+    font-family: 'Merriweather', serif;
+}
+h1 {/* we will center the text by giving it a padding */ 
+	padding-top:60px;
+	font-size:36px; 
+	color:white;
+	font-weight:400;
+	/*border:white;*/
+}
+h2 /*we want to underline the second section and center the text and  change the text green*/ {  
+	padding-top:20px;
+	font-size:18px; 
+	color:white;
+	font-weight:300;
+}
+.underlineContent{ 
+	width:800px;
+	margin:0 auto; /*center align the content div*/ /*top,right,bottom,left*/
+	text-align:center;
+	/*border:red solid 1px;*/
+}
+h3{ 
+	padding-top:40px;
+	font-size:18px; 
+	color:#A8C93D;
+	width:800px;
+	text-decoration: underline;
+}
+.paragraph{/*to make the green box */
+	
+	margin:20px auto; /*"auto" means to center no matter if we minimize the screen*/ 
+	background:#A8C93D;
+	width:600px;
+	padding:40px 40px 40px 40px;
+	text-align: left;
+}
+.title{ 
+	font-size: 16px;
+	font-weight:700; 
+}
+.content{ /*change text inside the green box to white*/
+	padding-top:30px;
+	color:white;
+	font-weight:300;	
+ }
+
+
+
+
+
+
+
+
