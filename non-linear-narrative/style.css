@@ -2,7 +2,7 @@ h1,h2,header,p,body{ /*to calculate where to put txt we 0 out all the text*/
 	margin:0;
 	padding:0;
 	border:0; 
-    font-family:Helvetica;
+    font-family:Courier;
     background-color:black; 
  }
 .header {
@@ -49,33 +49,3 @@ img {
 		text-align: center;
 		font-size: 18px;
 	 }
-/*div {
-  font-size: 0;
-}
-
-a {
-  font-size: 16px; 
-  display: inline-block;
-  margin-bottom: 8px;
-  width: calc(50% - 4px);
-  margin-right: 8px;
-}
-
-a:nth-of-type(2n) {
-  margin-right: 0;
-}
-
-@media screen and (min-width: 50em) {
-  a {
-    width: calc(25% - 6px);
-  }
-
-  a:nth-of-type(2n) {
-    margin-right: 8px;
-  }
-
-  a:nth-of-type(4n) {
-    margin-right: 0;
-  }
-}
-*/
